@@ -17,6 +17,8 @@ const {
   checkOtpSchema,
 } = require("../validators/user.schema");
 
+const https = require('https');
+
 class userAuthController extends Controller {
   constructor() {
     super();
@@ -116,44 +118,79 @@ class userAuthController extends Controller {
     );
     return !!updatedResult.modifiedCount;
   }
-  sendOTP(phoneNumber, res) {
-    const kaveNegarApi = Kavenegar.KavenegarApi({
-      apikey: `${process.env.KAVENEGAR_API_KEY}`,
-    });
+    sendOTP(phoneNumber, res) {
 
 
-
-    kaveNegarApi.VerifyLookup(
-      {
-        receptor: phoneNumber,
-        token: this.code,
-        template: "registerVerify",
-      },
-
-
-        
-      (response, status) => {
-        // console.log(response);
-        // console.log("kavenegar message status", status);
-        if (response && status === 200)
-          return res.status(HttpStatus.OK).send({
-            statusCode: HttpStatus.OK,
-            data: {
-              message: `کد تائید برای شماره موبایل ${toPersianDigits(
-                phoneNumber
-              )} ارسال گردید`,
-              expiresIn: CODE_EXPIRES,
-              phoneNumber,
-            },
-          });
-
-        return res.status(status).send({
-          statusCode: status,
-          message: "کد اعتبارسنجی ارسال نشد",
+        const data = JSON.stringify({
+            'to': `${phoneNumber}`,
         });
-      }
-    );
-  }
+
+        const options = {
+            hostname: 'console.melipayamak.com',
+            port: 443,
+            path: `${KAVENEGAR_API_KEY}`,
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Content-Length': data.length
+            }
+        };
+
+
+        let body = '';
+
+        const req = https.request(options, response=>{
+            console.log(response.statusCode);
+            const resCode = response.statusCode;
+
+            let body = '';
+
+            response.on('data', chunk => {
+                body += chunk;
+            });
+
+            response.on('end', () => {
+                try {
+                    const data = JSON.parse(body);
+
+                    console.log(data);
+
+                    if (resCode === 200) {
+                        return res.status(HttpStatus.OK).send({
+                            statusCode: HttpStatus.OK,
+                            data: {
+                                message: data,
+                                expiresIn: CODE_EXPIRES,
+                            },
+                        });
+                    }
+
+                } catch (err) {
+                    console.error('JSON parse error:', err);
+                    return res.status(err).send({
+                        statusCode: err,
+                        message: "کد اعتبارسنجی ارسال نشد",
+                    });
+                }
+            });
+
+            response.on('error', err => {
+                console.error(err);
+                return res.status(err).send({
+                    statusCode: err,
+                    message: "کد اعتبارسنجی ارسال نشد",
+                });
+            });
+
+
+        })
+
+
+        req.write(data);
+        req.end();
+
+
+    }
   async completeProfile(req, res) {
     await completeProfileSchema.validateAsync(req.body);
     const { user } = req;

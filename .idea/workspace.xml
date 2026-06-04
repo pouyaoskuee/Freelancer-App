@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="meli payamak bug fixd" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="meli payamak bug fixd">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/http/controllers/userAuth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/http/controllers/userAuth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780599470789</updated>
       <workItem from="1780599471940" duration="3856000" />
-      <workItem from="1780603358389" duration="64000" />
+      <workItem from="1780603358389" duration="457000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
