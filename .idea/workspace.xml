@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="config fonts , tailwind , root variables">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Auth/Auth.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="complete tailwind config &amp; add react router dom to project">
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
       <list>
         <option value="CSS File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,6 +86,8 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/pages" />
+      <recent name="$PROJECT_DIR$/client/src/features/authentication" />
       <recent name="$PROJECT_DIR$/client/public/fonts" />
       <recent name="$PROJECT_DIR$/client/public" />
     </key>
@@ -118,7 +121,8 @@
       <workItem from="1780604122408" duration="4413000" />
       <workItem from="1780609371453" duration="8000" />
       <workItem from="1780682231543" duration="3323000" />
-      <workItem from="1780685591550" duration="1360000" />
+      <workItem from="1780685591550" duration="1516000" />
+      <workItem from="1780780116287" duration="6332000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -169,7 +173,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
       <updated>1780609351539</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎−۰۰۰۰۸" summary="complete tailwind config &amp; add react router dom to project">
+      <option name="closed" value="true" />
+      <created>1780687654019</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1780687654020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +204,7 @@
     <MESSAGE value="meli payamak bug fixd" />
     <MESSAGE value="change kavenegar web service to melli payamak and add client files" />
     <MESSAGE value="config fonts , tailwind , root variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="config fonts , tailwind , root variables" />
+    <MESSAGE value="complete tailwind config &amp; add react router dom to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete tailwind config &amp; add react router dom to project" />
   </component>
 </project>
