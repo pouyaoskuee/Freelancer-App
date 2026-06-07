@@ -125,10 +125,11 @@ class userAuthController extends Controller {
             'to': `${phoneNumber}`,
         });
 
+        // `${process.env.KAVENEGAR_API_KEY}`
         const options = {
             hostname: 'console.melipayamak.com',
             port: 443,
-            path: `${KAVENEGAR_API_KEY}`,
+            path: `${process.env.KAVENEGAR_API_KEY}`,
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

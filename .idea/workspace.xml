@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="create OTP pages">
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/httpService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="send/check OTP pages &amp; services logics was written">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/http/controllers/userAuth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/http/controllers/userAuth.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +125,8 @@
       <workItem from="1780780116287" duration="6923000" />
       <workItem from="1780842004994" duration="14000" />
       <workItem from="1780845817203" duration="6889000" />
+      <workItem from="1780853971145" duration="410000" />
+      <workItem from="1780866933331" duration="5258000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
