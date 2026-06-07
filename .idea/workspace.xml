@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="complete tailwind config &amp; add react router dom to project">
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="create OTP pages">
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/httpService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +124,9 @@
       <workItem from="1780609371453" duration="8000" />
       <workItem from="1780682231543" duration="3323000" />
       <workItem from="1780685591550" duration="1516000" />
-      <workItem from="1780780116287" duration="6332000" />
+      <workItem from="1780780116287" duration="6923000" />
+      <workItem from="1780842004994" duration="14000" />
+      <workItem from="1780845817203" duration="6889000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -180,7 +184,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
       <updated>1780687654020</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎−۰۰۰۰۹" summary="create OTP pages">
+      <option name="closed" value="true" />
+      <created>1780790211802</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
+      <updated>1780790211802</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +216,7 @@
     <MESSAGE value="change kavenegar web service to melli payamak and add client files" />
     <MESSAGE value="config fonts , tailwind , root variables" />
     <MESSAGE value="complete tailwind config &amp; add react router dom to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete tailwind config &amp; add react router dom to project" />
+    <MESSAGE value="create OTP pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="create OTP pages" />
   </component>
 </project>
