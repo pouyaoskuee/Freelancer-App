@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:error handling">
-      <change afterPath="$PROJECT_DIR$/client/src/ui/Loading.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:error handling on send OTP">
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +128,7 @@
       <workItem from="1780866933331" duration="6163000" />
       <workItem from="1780928124336" duration="45000" />
       <workItem from="1780935745375" duration="4681000" />
+      <workItem from="1780953655677" duration="6941000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -207,7 +207,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
       <updated>1780941460246</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎−۰۰۰۱۲" summary="feat: send-otp-form logics was written">
+      <option name="closed" value="true" />
+      <created>1780953959304</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۲" />
+      <updated>1780953959304</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۳" summary="fix:error handling on send OTP">
+      <option name="closed" value="true" />
+      <created>1780960866438</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۳" />
+      <updated>1780960866438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +249,8 @@
     <MESSAGE value="create OTP pages" />
     <MESSAGE value="feat:add react query to the project" />
     <MESSAGE value="fix:error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:error handling" />
+    <MESSAGE value="feat: send-otp-form logics was written" />
+    <MESSAGE value="fix:error handling on send OTP" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:error handling on send OTP" />
   </component>
 </project>
