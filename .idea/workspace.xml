@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="send/check OTP pages &amp; services logics was written">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:error handling">
+      <change afterPath="$PROJECT_DIR$/client/src/ui/Loading.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/http/controllers/userAuth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/http/controllers/userAuth.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -126,7 +126,9 @@
       <workItem from="1780842004994" duration="14000" />
       <workItem from="1780845817203" duration="6889000" />
       <workItem from="1780853971145" duration="410000" />
-      <workItem from="1780866933331" duration="5258000" />
+      <workItem from="1780866933331" duration="6163000" />
+      <workItem from="1780928124336" duration="45000" />
+      <workItem from="1780935745375" duration="4681000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -191,7 +193,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
       <updated>1780790211802</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎−۰۰۰۱۰" summary="feat:add react query to the project">
+      <option name="closed" value="true" />
+      <created>1780872534696</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
+      <updated>1780872534696</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۱" summary="fix:error handling">
+      <option name="closed" value="true" />
+      <created>1780941460246</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
+      <updated>1780941460246</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +233,8 @@
     <MESSAGE value="config fonts , tailwind , root variables" />
     <MESSAGE value="complete tailwind config &amp; add react router dom to project" />
     <MESSAGE value="create OTP pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="create OTP pages" />
+    <MESSAGE value="feat:add react query to the project" />
+    <MESSAGE value="fix:error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:error handling" />
   </component>
 </project>
