@@ -138,10 +138,8 @@ class userAuthController extends Controller {
         };
 
 
-        let body = '';
-
         const req = https.request(options, response=>{
-            console.log(response.statusCode);
+            // console.log(response.statusCode);
             const resCode = response.statusCode;
 
             let body = '';
@@ -151,35 +149,37 @@ class userAuthController extends Controller {
             });
 
             response.on('end', () => {
-                try {
+                if (resCode === 200) {
                     const data = JSON.parse(body);
-
                     console.log(data);
-
-                    if (resCode === 200) {
-                        return res.status(HttpStatus.OK).send({
-                            statusCode: HttpStatus.OK,
-                            data: {
-                                message: data,
-                                expiresIn: CODE_EXPIRES,
-                            },
-                        });
-                    }
-
-                } catch (err) {
-                    console.error('JSON parse error:', err);
-                    return res.status(err).send({
-                        statusCode: err,
-                        message: "کد اعتبارسنجی ارسال نشد",
+                    return res.status(HttpStatus.OK).send({
+                        data: {
+                            message: data,
+                            expiresIn: CODE_EXPIRES,
+                        },
                     });
+                }else {
+                    return res.status(response.statusCode).send({
+                        statusCode: response.statusCode,
+                        data:{
+                            statusCode: response.statusCode,
+                            message: "کد اعتبارسنجی ارسال نشد",
+                        }
+                    });
+
                 }
+
             });
 
+
             response.on('error', err => {
-                console.error(err);
-                return res.status(err).send({
-                    statusCode: err,
-                    message: "کد اعتبارسنجی ارسال نشد",
+                console.log(err)
+                return res.status(response.statusCode).send({
+                    statusCode: response.statusCode,
+                    data:{
+                        statusCode: response.statusCode,
+                        message: "کد اعتبارسنجی ارسال نشد",
+                    }
                 });
             });
 
