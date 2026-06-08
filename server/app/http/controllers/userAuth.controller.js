@@ -64,11 +64,14 @@ class userAuthController extends Controller {
 
     if (!user) throw createError.NotFound("کاربری با این مشخصات یافت نشد");
 
-    if (user.otp.code != code)
-      throw createError.BadRequest("کد ارسال شده صحیح نمیباشد");
+    if (user.otp.code != code){
+        throw createError.BadRequest("کد ارسال شده صحیح نمیباشد");
+    }
+
 
     if (new Date(`${user.otp.expiresIn}`).getTime() < Date.now())
       throw createError.BadRequest("کد اعتبار سنجی منقضی شده است");
+
 
     user.isVerifiedPhoneNumber = true;
     await user.save();
@@ -120,12 +123,13 @@ class userAuthController extends Controller {
   }
     sendOTP(phoneNumber, res) {
 
+      if (phoneNumber.length<11) throw createError.BadRequest('شماره موبایل اشتباه است')
+
 
         const data = JSON.stringify({
             'to': `${phoneNumber}`,
         });
 
-        // `${process.env.KAVENEGAR_API_KEY}`
         const options = {
             hostname: 'console.melipayamak.com',
             port: 443,
@@ -139,9 +143,7 @@ class userAuthController extends Controller {
 
 
         const req = https.request(options, response=>{
-            // console.log(response.statusCode);
             const resCode = response.statusCode;
-
             let body = '';
 
             response.on('data', chunk => {
@@ -151,7 +153,6 @@ class userAuthController extends Controller {
             response.on('end', () => {
                 if (resCode === 200) {
                     const data = JSON.parse(body);
-                    console.log(data);
                     return res.status(HttpStatus.OK).send({
                         data: {
                             message: data,
@@ -159,6 +160,7 @@ class userAuthController extends Controller {
                         },
                     });
                 }else {
+
                     return res.status(response.statusCode).send({
                         statusCode: response.statusCode,
                         data:{
@@ -173,13 +175,9 @@ class userAuthController extends Controller {
 
 
             response.on('error', err => {
-                console.log(err)
                 return res.status(response.statusCode).send({
                     statusCode: response.statusCode,
-                    data:{
-                        statusCode: response.statusCode,
-                        message: "کد اعتبارسنجی ارسال نشد",
-                    }
+                    message: "کد اعتبارسنجی ارسال نشد",
                 });
             });
 
