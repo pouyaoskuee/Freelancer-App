@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat: add navigate from authentication">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat: CheckOTPForm ui &amp; logics">
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/CompleteProfile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/eslint.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/NumberInput.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,9 @@
       <workItem from="1780935745375" duration="4681000" />
       <workItem from="1780953655677" duration="7546000" />
       <workItem from="1781009587150" duration="4000" />
-      <workItem from="1781018677374" duration="6047000" />
+      <workItem from="1781018677374" duration="6199000" />
+      <workItem from="1781026268391" duration="101000" />
+      <workItem from="1781040097984" duration="6360000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -229,7 +232,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۱۴" />
       <updated>1780961406110</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL‎−۰۰۰۱۵" summary="feat: CheckOTPForm ui &amp; logics">
+      <option name="closed" value="true" />
+      <created>1781026169495</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۵" />
+      <updated>1781026169495</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +270,7 @@
     <MESSAGE value="feat: send-otp-form logics was written" />
     <MESSAGE value="fix:error handling on send OTP" />
     <MESSAGE value="feat: add navigate from authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add navigate from authentication" />
+    <MESSAGE value="feat: CheckOTPForm ui &amp; logics" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: CheckOTPForm ui &amp; logics" />
   </component>
 </project>
