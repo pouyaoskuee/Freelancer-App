@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat: CheckOTPForm ui &amp; logics">
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/CompleteProfile.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create CompleteProfile path">
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/useMoveBack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/NotFound.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,6 +43,9 @@
     &quot;accountId&quot;: &quot;76b37d10-afe5-49d2-aaa5-23cbfe50097d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -132,7 +136,10 @@
       <workItem from="1781009587150" duration="4000" />
       <workItem from="1781018677374" duration="6199000" />
       <workItem from="1781026268391" duration="101000" />
-      <workItem from="1781040097984" duration="6360000" />
+      <workItem from="1781040097984" duration="7633000" />
+      <workItem from="1781104223736" duration="180000" />
+      <workItem from="1781108364190" duration="4741000" />
+      <workItem from="1781127733867" duration="5187000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -239,7 +246,49 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۱۵" />
       <updated>1781026169495</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL‎−۰۰۰۱۶" summary="feat: add Otp timer">
+      <option name="closed" value="true" />
+      <created>1781049644363</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۶" />
+      <updated>1781049644363</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۷" summary="style: new ui">
+      <option name="closed" value="true" />
+      <created>1781049760516</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۷" />
+      <updated>1781049760516</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۸" summary="feat:add CompleteProfile page">
+      <option name="closed" value="true" />
+      <created>1781049823485</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۸" />
+      <updated>1781049823485</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۹" summary="refactor:add new ui components">
+      <option name="closed" value="true" />
+      <created>1781113880239</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۹" />
+      <updated>1781113880239</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۰" summary="feat:create CompleteProfileForm ui">
+      <option name="closed" value="true" />
+      <created>1781113944966</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۰" />
+      <updated>1781113944966</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۱" summary="feat:create CompleteProfile path">
+      <option name="closed" value="true" />
+      <created>1781113974244</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۱" />
+      <updated>1781113974244</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +320,12 @@
     <MESSAGE value="fix:error handling on send OTP" />
     <MESSAGE value="feat: add navigate from authentication" />
     <MESSAGE value="feat: CheckOTPForm ui &amp; logics" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: CheckOTPForm ui &amp; logics" />
+    <MESSAGE value="feat: add Otp timer" />
+    <MESSAGE value="style: new ui" />
+    <MESSAGE value="feat:add CompleteProfile page" />
+    <MESSAGE value="refactor:add new ui components" />
+    <MESSAGE value="feat:create CompleteProfileForm ui" />
+    <MESSAGE value="feat:create CompleteProfile path" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create CompleteProfile path" />
   </component>
 </project>
