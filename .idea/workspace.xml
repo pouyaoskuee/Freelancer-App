@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create CompleteProfile path">
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useMoveBack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/NotFound.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:accessToken &amp; refreshToken authentication">
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Owner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -139,7 +135,8 @@
       <workItem from="1781040097984" duration="7633000" />
       <workItem from="1781104223736" duration="180000" />
       <workItem from="1781108364190" duration="4741000" />
-      <workItem from="1781127733867" duration="5187000" />
+      <workItem from="1781127733867" duration="6226000" />
+      <workItem from="1781191409016" duration="6050000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -288,7 +285,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۱" />
       <updated>1781113974244</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL‎−۰۰۰۲۲" summary="feat:add Home &amp; NotFound path">
+      <option name="closed" value="true" />
+      <created>1781133042594</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۲" />
+      <updated>1781133042594</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۳" summary="feat:add Home &amp; NotFound components">
+      <option name="closed" value="true" />
+      <created>1781133096391</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۳" />
+      <updated>1781133096391</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۴" summary="feat:add Home &amp; NotFound components">
+      <option name="closed" value="true" />
+      <created>1781133180443</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۴" />
+      <updated>1781133180443</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۵" summary="feat: completeProfile conditions &amp; api">
+      <option name="closed" value="true" />
+      <created>1781133290238</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۵" />
+      <updated>1781133290238</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۶" summary="feat:accessToken &amp; refreshToken authentication">
+      <option name="closed" value="true" />
+      <created>1781196589447</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۶" />
+      <updated>1781196589447</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +358,10 @@
     <MESSAGE value="refactor:add new ui components" />
     <MESSAGE value="feat:create CompleteProfileForm ui" />
     <MESSAGE value="feat:create CompleteProfile path" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:create CompleteProfile path" />
+    <MESSAGE value="feat:add Home &amp; NotFound path" />
+    <MESSAGE value="feat:add Home &amp; NotFound components" />
+    <MESSAGE value="feat: completeProfile conditions &amp; api" />
+    <MESSAGE value="feat:accessToken &amp; refreshToken authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:accessToken &amp; refreshToken authentication" />
   </component>
 </project>
