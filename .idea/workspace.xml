@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:accessToken &amp; refreshToken authentication">
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Owner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create dashboard pages">
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/useUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Project.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/ui/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Owner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +142,8 @@
       <workItem from="1781104223736" duration="180000" />
       <workItem from="1781108364190" duration="4741000" />
       <workItem from="1781127733867" duration="6226000" />
-      <workItem from="1781191409016" duration="6050000" />
+      <workItem from="1781191409016" duration="6148000" />
+      <workItem from="1781212927761" duration="4917000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -320,7 +327,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۶" />
       <updated>1781196589447</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL‎−۰۰۰۲۷" summary="feat:create dashboard pages">
+      <option name="closed" value="true" />
+      <created>1781199478061</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۷" />
+      <updated>1781199478061</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +376,7 @@
     <MESSAGE value="feat:add Home &amp; NotFound components" />
     <MESSAGE value="feat: completeProfile conditions &amp; api" />
     <MESSAGE value="feat:accessToken &amp; refreshToken authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:accessToken &amp; refreshToken authentication" />
+    <MESSAGE value="feat:create dashboard pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create dashboard pages" />
   </component>
 </project>
