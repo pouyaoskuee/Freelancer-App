@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:get user info from backend">
-      <change afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useOwnerProjects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:get owner projects and show">
+      <change afterPath="$PROJECT_DIR$/client/src/ui/Empty.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/projects/useOwnerProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/useOwnerProjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +140,8 @@
       <workItem from="1781191409016" duration="6148000" />
       <workItem from="1781212927761" duration="6519000" />
       <workItem from="1781362110702" duration="903000" />
-      <workItem from="1781366336473" duration="5166000" />
+      <workItem from="1781366336473" duration="5620000" />
+      <workItem from="1781384468934" duration="7287000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -351,7 +346,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۹" />
       <updated>1781220867390</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL‎−۰۰۰۳۰" summary="style:remove container class">
+      <option name="closed" value="true" />
+      <created>1781372722160</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۰" />
+      <updated>1781372722160</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۱" summary="style: grid layout and container colors">
+      <option name="closed" value="true" />
+      <created>1781372827170</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۱" />
+      <updated>1781372827170</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۲" summary="style: add white color to root">
+      <option name="closed" value="true" />
+      <created>1781372847605</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۲" />
+      <updated>1781372847605</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۳" summary="feat:sidebar of panel">
+      <option name="closed" value="true" />
+      <created>1781372931693</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۳" />
+      <updated>1781372931693</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۴" summary="feat:get owner projects and show">
+      <option name="closed" value="true" />
+      <created>1781372976043</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۴" />
+      <updated>1781372976043</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,11 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="meli payamak bux fixd" />
-    <MESSAGE value="meli payamak bug fixd" />
-    <MESSAGE value="change kavenegar web service to melli payamak and add client files" />
-    <MESSAGE value="config fonts , tailwind , root variables" />
-    <MESSAGE value="complete tailwind config &amp; add react router dom to project" />
     <MESSAGE value="create OTP pages" />
     <MESSAGE value="feat:add react query to the project" />
     <MESSAGE value="fix:error handling" />
@@ -394,6 +419,11 @@
     <MESSAGE value="feat:create dashboard pages" />
     <MESSAGE value="feat:owner dashboard" />
     <MESSAGE value="feat:get user info from backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:get user info from backend" />
+    <MESSAGE value="style:remove container class" />
+    <MESSAGE value="style: grid layout and container colors" />
+    <MESSAGE value="style: add white color to root" />
+    <MESSAGE value="feat:sidebar of panel" />
+    <MESSAGE value="feat:get owner projects and show" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:get owner projects and show" />
   </component>
 </project>
