@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create dashboard pages">
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/useUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Project.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:get user info from backend">
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useOwnerProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Owner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,9 @@
       <workItem from="1781108364190" duration="4741000" />
       <workItem from="1781127733867" duration="6226000" />
       <workItem from="1781191409016" duration="6148000" />
-      <workItem from="1781212927761" duration="4917000" />
+      <workItem from="1781212927761" duration="6519000" />
+      <workItem from="1781362110702" duration="903000" />
+      <workItem from="1781366336473" duration="5166000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -334,7 +337,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۷" />
       <updated>1781199478061</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL‎−۰۰۰۲۸" summary="feat:owner dashboard">
+      <option name="closed" value="true" />
+      <created>1781220833918</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۸" />
+      <updated>1781220833918</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۹" summary="feat:get user info from backend">
+      <option name="closed" value="true" />
+      <created>1781220867390</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۹" />
+      <updated>1781220867390</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,8 +369,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add files to start" />
-    <MESSAGE value="change kavenegar web service to meli payamak" />
     <MESSAGE value="meli payamak bux fixd" />
     <MESSAGE value="meli payamak bug fixd" />
     <MESSAGE value="change kavenegar web service to melli payamak and add client files" />
@@ -377,6 +392,8 @@
     <MESSAGE value="feat: completeProfile conditions &amp; api" />
     <MESSAGE value="feat:accessToken &amp; refreshToken authentication" />
     <MESSAGE value="feat:create dashboard pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:create dashboard pages" />
+    <MESSAGE value="feat:owner dashboard" />
+    <MESSAGE value="feat:get user info from backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:get user info from backend" />
   </component>
 </project>
