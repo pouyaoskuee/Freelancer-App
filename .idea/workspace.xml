@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:get owner projects and show">
-      <change afterPath="$PROJECT_DIR$/client/src/ui/Empty.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/projects/useOwnerProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/useOwnerProjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -381,7 +380,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۴" />
       <updated>1781372976043</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL‎−۰۰۰۳۵" summary="style:wright styles with tailwind">
+      <option name="closed" value="true" />
+      <created>1781478045947</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۵" />
+      <updated>1781478045947</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create OTP pages" />
     <MESSAGE value="feat:add react query to the project" />
     <MESSAGE value="fix:error handling" />
     <MESSAGE value="feat: send-otp-form logics was written" />
@@ -424,6 +429,7 @@
     <MESSAGE value="style: add white color to root" />
     <MESSAGE value="feat:sidebar of panel" />
     <MESSAGE value="feat:get owner projects and show" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:get owner projects and show" />
+    <MESSAGE value="style:wright styles with tailwind" />
+    <option name="LAST_COMMIT_MESSAGE" value="style:wright styles with tailwind" />
   </component>
 </project>
