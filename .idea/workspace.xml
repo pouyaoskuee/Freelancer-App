@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:get owner projects and show">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="style:wright styles with tailwind">
+      <change afterPath="$PROJECT_DIR$/client/src/ui/ConfirmDelete.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Modal.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +143,8 @@
       <workItem from="1781362110702" duration="903000" />
       <workItem from="1781366336473" duration="5620000" />
       <workItem from="1781384468934" duration="7287000" />
+      <workItem from="1781535922867" duration="6000" />
+      <workItem from="1781541572175" duration="4368000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -387,7 +391,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۵" />
       <updated>1781478045947</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL‎−۰۰۰۳۶" summary="style:wright styles with tailwind">
+      <option name="closed" value="true" />
+      <created>1781478744617</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۶" />
+      <updated>1781478744617</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
