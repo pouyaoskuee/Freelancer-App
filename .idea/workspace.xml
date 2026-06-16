@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="style:wright styles with tailwind">
-      <change afterPath="$PROJECT_DIR$/client/src/ui/ConfirmDelete.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:modal ui and logic">
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useRemoveProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -144,7 +143,8 @@
       <workItem from="1781366336473" duration="5620000" />
       <workItem from="1781384468934" duration="7287000" />
       <workItem from="1781535922867" duration="6000" />
-      <workItem from="1781541572175" duration="4368000" />
+      <workItem from="1781541572175" duration="4561000" />
+      <workItem from="1781629191530" duration="2859000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -398,7 +398,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۶" />
       <updated>1781478744617</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL‎−۰۰۰۳۷" summary="feat:modal ui and logic">
+      <option name="closed" value="true" />
+      <created>1781546458249</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۷" />
+      <updated>1781546458249</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:add react query to the project" />
     <MESSAGE value="fix:error handling" />
     <MESSAGE value="feat: send-otp-form logics was written" />
     <MESSAGE value="fix:error handling on send OTP" />
@@ -441,6 +447,7 @@
     <MESSAGE value="feat:sidebar of panel" />
     <MESSAGE value="feat:get owner projects and show" />
     <MESSAGE value="style:wright styles with tailwind" />
-    <option name="LAST_COMMIT_MESSAGE" value="style:wright styles with tailwind" />
+    <MESSAGE value="feat:modal ui and logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:modal ui and logic" />
   </component>
 </project>
