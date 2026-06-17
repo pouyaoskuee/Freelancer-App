@@ -201,8 +201,16 @@ class ProjectController extends Controller {
     const { id } = req.params;
     const project = await this.findProjectById(id);
 
-    if (project.freelancer)
-      throw createHttpError.BadRequest("پروژه قابل حذف نیست");
+    if (project.freelancer){
+        // throw createHttpError.BadRequest("پروژه قابل حذف نیست");
+        return res.status(HttpStatus.BAD_REQUEST).json({
+            statusCode: HttpStatus.BAD_REQUEST,
+            data: {
+                message: "پروژه قابل حذف نیست",
+            },
+        });
+    }
+
 
     const result = await ProjectModel.deleteOne({ _id: id });
     if (result.deletedCount)
