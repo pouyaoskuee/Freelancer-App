@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:response success and error messages">
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useOutSideClick.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:simple configs">
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Input.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Modal.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -152,7 +150,8 @@
       <workItem from="1781629191530" duration="3099000" />
       <workItem from="1781646161868" duration="11686000" />
       <workItem from="1781712709836" duration="4215000" />
-      <workItem from="1781717642217" duration="1936000" />
+      <workItem from="1781717642217" duration="2296000" />
+      <workItem from="1781731875936" duration="4683000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -455,7 +454,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۳" />
       <updated>1781657853731</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL‎−۰۰۰۴۴" summary="style:scroll project table">
+      <option name="closed" value="true" />
+      <created>1781719844252</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۴" />
+      <updated>1781719844252</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۵" summary="feat:outside click hook on modals">
+      <option name="closed" value="true" />
+      <created>1781719910374</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۵" />
+      <updated>1781719910374</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۶" summary="fix:simple configs">
+      <option name="closed" value="true" />
+      <created>1781719955762</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۶" />
+      <updated>1781719955762</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,9 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: CheckOTPForm ui &amp; logics" />
-    <MESSAGE value="feat: add Otp timer" />
-    <MESSAGE value="style: new ui" />
     <MESSAGE value="feat:add CompleteProfile page" />
     <MESSAGE value="refactor:add new ui components" />
     <MESSAGE value="feat:create CompleteProfileForm ui" />
@@ -498,6 +515,9 @@
     <MESSAGE value="fix:error handling" />
     <MESSAGE value="fix:id bug in delete project" />
     <MESSAGE value="feat:response success and error messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:response success and error messages" />
+    <MESSAGE value="style:scroll project table" />
+    <MESSAGE value="feat:outside click hook on modals" />
+    <MESSAGE value="fix:simple configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:simple configs" />
   </component>
 </project>
