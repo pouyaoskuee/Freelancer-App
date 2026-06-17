@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:owner project remove api &amp; logic">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:response success and error messages">
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/useOutSideClick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/projects/useRemoveProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/useRemoveProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/httpService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/httpService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/http/controllers/project.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/http/controllers/project.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Modal.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +150,9 @@
       <workItem from="1781535922867" duration="6000" />
       <workItem from="1781541572175" duration="4561000" />
       <workItem from="1781629191530" duration="3099000" />
-      <workItem from="1781646161868" duration="11243000" />
+      <workItem from="1781646161868" duration="11686000" />
+      <workItem from="1781712709836" duration="4215000" />
+      <workItem from="1781717642217" duration="1936000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -415,7 +420,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۸" />
       <updated>1781634134484</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL‎−۰۰۰۳۹" summary="fix:error handling">
+      <option name="closed" value="true" />
+      <created>1781657505602</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۹" />
+      <updated>1781657505602</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۰" summary="fix:error handling">
+      <option name="closed" value="true" />
+      <created>1781657533515</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۰" />
+      <updated>1781657533515</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۱" summary="fix:id bug in delete project">
+      <option name="closed" value="true" />
+      <created>1781657699078</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۱" />
+      <updated>1781657699078</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۲" summary="feat:response success and error messages">
+      <option name="closed" value="true" />
+      <created>1781657850085</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۲" />
+      <updated>1781657850085</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۳" summary="feat:response success and error messages">
+      <option name="closed" value="true" />
+      <created>1781657853731</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۳" />
+      <updated>1781657853731</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,9 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: send-otp-form logics was written" />
-    <MESSAGE value="fix:error handling on send OTP" />
-    <MESSAGE value="feat: add navigate from authentication" />
     <MESSAGE value="feat: CheckOTPForm ui &amp; logics" />
     <MESSAGE value="feat: add Otp timer" />
     <MESSAGE value="style: new ui" />
@@ -458,6 +495,9 @@
     <MESSAGE value="style:wright styles with tailwind" />
     <MESSAGE value="feat:modal ui and logic" />
     <MESSAGE value="feat:owner project remove api &amp; logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:owner project remove api &amp; logic" />
+    <MESSAGE value="fix:error handling" />
+    <MESSAGE value="fix:id bug in delete project" />
+    <MESSAGE value="feat:response success and error messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:response success and error messages" />
   </component>
 </project>
