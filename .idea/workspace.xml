@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:simple configs">
-      <change afterPath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:react-hook-form add to the project">
+      <change afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Input.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/RadioInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/RadioInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +156,9 @@
       <workItem from="1781646161868" duration="11686000" />
       <workItem from="1781712709836" duration="4215000" />
       <workItem from="1781717642217" duration="2296000" />
-      <workItem from="1781731875936" duration="4683000" />
+      <workItem from="1781731875936" duration="5568000" />
+      <workItem from="1781790167525" duration="1199000" />
+      <workItem from="1781796182869" duration="7154000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
       <option name="closed" value="true" />
@@ -475,7 +482,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۶" />
       <updated>1781719955762</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL‎−۰۰۰۴۷" summary="feat:add create project modal">
+      <option name="closed" value="true" />
+      <created>1781736956737</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۷" />
+      <updated>1781736956737</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۸" summary="style:modal minimum width">
+      <option name="closed" value="true" />
+      <created>1781737100535</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۸" />
+      <updated>1781737100535</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۹" summary="feat:react-hook-form add to the project">
+      <option name="closed" value="true" />
+      <created>1781737144752</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۹" />
+      <updated>1781737144752</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,9 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:add CompleteProfile page" />
-    <MESSAGE value="refactor:add new ui components" />
-    <MESSAGE value="feat:create CompleteProfileForm ui" />
     <MESSAGE value="feat:create CompleteProfile path" />
     <MESSAGE value="feat:add Home &amp; NotFound path" />
     <MESSAGE value="feat:add Home &amp; NotFound components" />
@@ -518,6 +543,9 @@
     <MESSAGE value="style:scroll project table" />
     <MESSAGE value="feat:outside click hook on modals" />
     <MESSAGE value="fix:simple configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:simple configs" />
+    <MESSAGE value="feat:add create project modal" />
+    <MESSAGE value="style:modal minimum width" />
+    <MESSAGE value="feat:react-hook-form add to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:react-hook-form add to the project" />
   </component>
 </project>
