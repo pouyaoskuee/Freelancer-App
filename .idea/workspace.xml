@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:react-hook-form add to the project">
-      <change afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="style:change modal min width">
+      <change afterPath="$PROJECT_DIR$/client/src/ui/DatePickerField.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/SendOTPForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Input.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/RadioInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/RadioInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/Select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,42 +153,8 @@
       <workItem from="1781717642217" duration="2296000" />
       <workItem from="1781731875936" duration="5568000" />
       <workItem from="1781790167525" duration="1199000" />
-      <workItem from="1781796182869" duration="7154000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۱" summary="add files to start">
-      <option name="closed" value="true" />
-      <created>1780600539362</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
-      <updated>1780600539362</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۲" summary="add files to start">
-      <option name="closed" value="true" />
-      <created>1780600612843</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
-      <updated>1780600612843</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۳" summary="change kavenegar web service to meli payamak">
-      <option name="closed" value="true" />
-      <created>1780600788739</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
-      <updated>1780600788739</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۴" summary="meli payamak bug fixd">
-      <option name="closed" value="true" />
-      <created>1780601622520</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
-      <updated>1780601622520</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۵" summary="meli payamak bug fixd">
-      <option name="closed" value="true" />
-      <created>1780601906239</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
-      <updated>1780601906239</updated>
+      <workItem from="1781796182869" duration="7549000" />
+      <workItem from="1781816981950" duration="13334000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۶" summary="change kavenegar web service to melli payamak and add client files">
       <option name="closed" value="true" />
@@ -503,7 +464,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۹" />
       <updated>1781737144752</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL‎−۰۰۰۵۰" summary="feat:add react-hook-form configs to the forms">
+      <option name="closed" value="true" />
+      <created>1781805663499</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۰" />
+      <updated>1781805663500</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۱" summary="feat:add react-hook-form configs to the forms">
+      <option name="closed" value="true" />
+      <created>1781805737006</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۱" />
+      <updated>1781805737006</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۲" summary="style:Input styles rewritten">
+      <option name="closed" value="true" />
+      <created>1781805837166</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۲" />
+      <updated>1781805837167</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۳" summary="feat:create select option component">
+      <option name="closed" value="true" />
+      <created>1781805863445</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۳" />
+      <updated>1781805863445</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۴" summary="style:change modal min width">
+      <option name="closed" value="true" />
+      <created>1781805890946</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۴" />
+      <updated>1781805890946</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,10 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:create CompleteProfile path" />
-    <MESSAGE value="feat:add Home &amp; NotFound path" />
-    <MESSAGE value="feat:add Home &amp; NotFound components" />
-    <MESSAGE value="feat: completeProfile conditions &amp; api" />
     <MESSAGE value="feat:accessToken &amp; refreshToken authentication" />
     <MESSAGE value="feat:create dashboard pages" />
     <MESSAGE value="feat:owner dashboard" />
@@ -546,6 +538,10 @@
     <MESSAGE value="feat:add create project modal" />
     <MESSAGE value="style:modal minimum width" />
     <MESSAGE value="feat:react-hook-form add to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:react-hook-form add to the project" />
+    <MESSAGE value="feat:add react-hook-form configs to the forms" />
+    <MESSAGE value="style:Input styles rewritten" />
+    <MESSAGE value="feat:create select option component" />
+    <MESSAGE value="style:change modal min width" />
+    <option name="LAST_COMMIT_MESSAGE" value="style:change modal min width" />
   </component>
 </project>
