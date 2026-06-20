@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="style:change modal min width">
-      <change afterPath="$PROJECT_DIR$/client/src/ui/DatePickerField.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="style:select styles">
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useCreateProject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/useCategories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/categoryServices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/DatePickerField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/DatePickerField.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/Select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -154,28 +156,9 @@
       <workItem from="1781731875936" duration="5568000" />
       <workItem from="1781790167525" duration="1199000" />
       <workItem from="1781796182869" duration="7549000" />
-      <workItem from="1781816981950" duration="13334000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۶" summary="change kavenegar web service to melli payamak and add client files">
-      <option name="closed" value="true" />
-      <created>1780603946223</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
-      <updated>1780603946223</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۷" summary="config fonts , tailwind , root variables">
-      <option name="closed" value="true" />
-      <created>1780609351539</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
-      <updated>1780609351539</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۸" summary="complete tailwind config &amp; add react router dom to project">
-      <option name="closed" value="true" />
-      <created>1780687654019</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
-      <updated>1780687654020</updated>
+      <workItem from="1781816981950" duration="13665000" />
+      <workItem from="1781969730730" duration="9000" />
+      <workItem from="1781972681793" duration="6652000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۹" summary="create OTP pages">
       <option name="closed" value="true" />
@@ -499,7 +482,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۵۴" />
       <updated>1781805890946</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL‎−۰۰۰۵۵" summary="feat: add datePicker &amp; tag input to the form">
+      <option name="closed" value="true" />
+      <created>1781831516082</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۵" />
+      <updated>1781831516082</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۶" summary="fix:need vite 8 version to render datePicker">
+      <option name="closed" value="true" />
+      <created>1781831683372</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۶" />
+      <updated>1781831683372</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۷" summary="style:select styles">
+      <option name="closed" value="true" />
+      <created>1781831703281</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۷" />
+      <updated>1781831703281</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,9 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:accessToken &amp; refreshToken authentication" />
-    <MESSAGE value="feat:create dashboard pages" />
-    <MESSAGE value="feat:owner dashboard" />
     <MESSAGE value="feat:get user info from backend" />
     <MESSAGE value="style:remove container class" />
     <MESSAGE value="style: grid layout and container colors" />
@@ -542,6 +543,9 @@
     <MESSAGE value="style:Input styles rewritten" />
     <MESSAGE value="feat:create select option component" />
     <MESSAGE value="style:change modal min width" />
-    <option name="LAST_COMMIT_MESSAGE" value="style:change modal min width" />
+    <MESSAGE value="feat: add datePicker &amp; tag input to the form" />
+    <MESSAGE value="fix:need vite 8 version to render datePicker" />
+    <MESSAGE value="style:select styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="style:select styles" />
   </component>
 </project>
