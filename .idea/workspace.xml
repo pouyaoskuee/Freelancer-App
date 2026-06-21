@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:edite project feature">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:Opening multiple medals">
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/ToggleProjectStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useToggleStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +158,9 @@
       <workItem from="1781969730730" duration="9000" />
       <workItem from="1781972681793" duration="6847000" />
       <workItem from="1781992013987" duration="9000" />
-      <workItem from="1781992768422" duration="10388000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۳" summary="fix:error handling on send OTP">
-      <option name="closed" value="true" />
-      <created>1780960866438</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۳" />
-      <updated>1780960866438</updated>
+      <workItem from="1781992768422" duration="10928000" />
+      <workItem from="1782053045763" duration="6000" />
+      <workItem from="1782060748216" duration="5498000" />
     </task>
     <task id="LOCAL‎−۰۰۰۱۴" summary="feat: add navigate from authentication">
       <option name="closed" value="true" />
@@ -497,7 +498,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۶۱" />
       <updated>1782003914280</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL‎−۰۰۰۶۲" summary="fix:Opening multiple medals">
+      <option name="closed" value="true" />
+      <created>1782003964009</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۲" />
+      <updated>1782003964009</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:sidebar of panel" />
     <MESSAGE value="feat:get owner projects and show" />
     <MESSAGE value="style:wright styles with tailwind" />
     <MESSAGE value="feat:modal ui and logic" />
@@ -540,6 +547,7 @@
     <MESSAGE value="style:datePicker styles" />
     <MESSAGE value="feat:create project by owner" />
     <MESSAGE value="feat:edite project feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:edite project feature" />
+    <MESSAGE value="fix:Opening multiple medals" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:Opening multiple medals" />
   </component>
 </project>
