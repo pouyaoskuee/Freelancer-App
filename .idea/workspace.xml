@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:Opening multiple medals">
-      <change afterPath="$PROJECT_DIR$/client/src/features/projects/ToggleProjectStatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useToggleStatus.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:Owner Table Status Toggle Button">
+      <change afterPath="$PROJECT_DIR$/client/src/features/project/ProjectHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/project/useProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ToggleProjectStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ToggleProjectStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Project.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -160,21 +164,8 @@
       <workItem from="1781992013987" duration="9000" />
       <workItem from="1781992768422" duration="10928000" />
       <workItem from="1782053045763" duration="6000" />
-      <workItem from="1782060748216" duration="5498000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۴" summary="feat: add navigate from authentication">
-      <option name="closed" value="true" />
-      <created>1780961406110</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۴" />
-      <updated>1780961406110</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۵" summary="feat: CheckOTPForm ui &amp; logics">
-      <option name="closed" value="true" />
-      <created>1781026169495</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۵" />
-      <updated>1781026169495</updated>
+      <workItem from="1782060748216" duration="5762000" />
+      <workItem from="1782076556920" duration="7213000" />
     </task>
     <task id="LOCAL‎−۰۰۰۱۶" summary="feat: add Otp timer">
       <option name="closed" value="true" />
@@ -505,7 +496,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۶۲" />
       <updated>1782003964009</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL‎−۰۰۰۶۳" summary="fix:Back to Racket 18 to install incompatible dependencies">
+      <option name="closed" value="true" />
+      <created>1782066358393</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۳" />
+      <updated>1782066358394</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۴" summary="fix:Owner Table Status Toggle Button">
+      <option name="closed" value="true" />
+      <created>1782066511504</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۴" />
+      <updated>1782066511504</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,8 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:get owner projects and show" />
-    <MESSAGE value="style:wright styles with tailwind" />
     <MESSAGE value="feat:modal ui and logic" />
     <MESSAGE value="feat:owner project remove api &amp; logic" />
     <MESSAGE value="fix:error handling" />
@@ -548,6 +551,8 @@
     <MESSAGE value="feat:create project by owner" />
     <MESSAGE value="feat:edite project feature" />
     <MESSAGE value="fix:Opening multiple medals" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:Opening multiple medals" />
+    <MESSAGE value="fix:Back to Racket 18 to install incompatible dependencies" />
+    <MESSAGE value="fix:Owner Table Status Toggle Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:Owner Table Status Toggle Button" />
   </component>
 </project>
