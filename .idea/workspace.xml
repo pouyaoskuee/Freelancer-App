@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="style:select styles">
-      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useCreateProject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useCategories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/categoryServices.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create project by owner">
+      <change afterPath="$PROJECT_DIR$/client/src/features/projects/useEditProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/CreateProject.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/DatePickerField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/DatePickerField.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/ui/Select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,28 +155,9 @@
       <workItem from="1781796182869" duration="7549000" />
       <workItem from="1781816981950" duration="13665000" />
       <workItem from="1781969730730" duration="9000" />
-      <workItem from="1781972681793" duration="6652000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۹" summary="create OTP pages">
-      <option name="closed" value="true" />
-      <created>1780790211802</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
-      <updated>1780790211802</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۰" summary="feat:add react query to the project">
-      <option name="closed" value="true" />
-      <created>1780872534696</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
-      <updated>1780872534696</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۱" summary="fix:error handling">
-      <option name="closed" value="true" />
-      <created>1780941460246</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
-      <updated>1780941460246</updated>
+      <workItem from="1781972681793" duration="6847000" />
+      <workItem from="1781992013987" duration="9000" />
+      <workItem from="1781992768422" duration="10076000" />
     </task>
     <task id="LOCAL‎−۰۰۰۱۲" summary="feat: send-otp-form logics was written">
       <option name="closed" value="true" />
@@ -503,7 +481,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۵۷" />
       <updated>1781831703281</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL‎−۰۰۰۵۸" summary="feat:select categories">
+      <option name="closed" value="true" />
+      <created>1781980543117</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۸" />
+      <updated>1781980543117</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۹" summary="style:datePicker styles">
+      <option name="closed" value="true" />
+      <created>1781980566513</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۹" />
+      <updated>1781980566513</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۰" summary="feat:create project by owner">
+      <option name="closed" value="true" />
+      <created>1781980598940</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۰" />
+      <updated>1781980598940</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,9 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:get user info from backend" />
-    <MESSAGE value="style:remove container class" />
-    <MESSAGE value="style: grid layout and container colors" />
     <MESSAGE value="style: add white color to root" />
     <MESSAGE value="feat:sidebar of panel" />
     <MESSAGE value="feat:get owner projects and show" />
@@ -546,6 +542,9 @@
     <MESSAGE value="feat: add datePicker &amp; tag input to the form" />
     <MESSAGE value="fix:need vite 8 version to render datePicker" />
     <MESSAGE value="style:select styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="style:select styles" />
+    <MESSAGE value="feat:select categories" />
+    <MESSAGE value="style:datePicker styles" />
+    <MESSAGE value="feat:create project by owner" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create project by owner" />
   </component>
 </project>
