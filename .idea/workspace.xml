@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:Owner Table Status Toggle Button">
-      <change afterPath="$PROJECT_DIR$/client/src/features/project/ProjectHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/project/useProject.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create app header layout">
+      <change afterPath="$PROJECT_DIR$/client/src/context/DarkMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/LogOut.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/useLogOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/project/singleProposal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/project/useChangeProposalStatus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/proposalsService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ToggleProjectStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ToggleProjectStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/useOutSideClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useOutSideClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/Select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -165,42 +166,9 @@
       <workItem from="1781992768422" duration="10928000" />
       <workItem from="1782053045763" duration="6000" />
       <workItem from="1782060748216" duration="5762000" />
-      <workItem from="1782076556920" duration="7213000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۶" summary="feat: add Otp timer">
-      <option name="closed" value="true" />
-      <created>1781049644363</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۶" />
-      <updated>1781049644363</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۷" summary="style: new ui">
-      <option name="closed" value="true" />
-      <created>1781049760516</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۷" />
-      <updated>1781049760516</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۸" summary="feat:add CompleteProfile page">
-      <option name="closed" value="true" />
-      <created>1781049823485</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۸" />
-      <updated>1781049823485</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۹" summary="refactor:add new ui components">
-      <option name="closed" value="true" />
-      <created>1781113880239</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۹" />
-      <updated>1781113880239</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۰" summary="feat:create CompleteProfileForm ui">
-      <option name="closed" value="true" />
-      <created>1781113944966</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۰" />
-      <updated>1781113944966</updated>
+      <workItem from="1782076556920" duration="8369000" />
+      <workItem from="1782138296257" duration="195000" />
+      <workItem from="1782148701509" duration="11574000" />
     </task>
     <task id="LOCAL‎−۰۰۰۲۱" summary="feat:create CompleteProfile path">
       <option name="closed" value="true" />
@@ -510,7 +478,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۶۴" />
       <updated>1782066511504</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL‎−۰۰۰۶۵" summary="fix:forget &quot;/&quot;">
+      <option name="closed" value="true" />
+      <created>1782083918132</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۵" />
+      <updated>1782083918134</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۶" summary="style:Replacing the wrapper div">
+      <option name="closed" value="true" />
+      <created>1782084070205</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۶" />
+      <updated>1782084070205</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۷" summary="feat:show single project proposals">
+      <option name="closed" value="true" />
+      <created>1782084172775</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۷" />
+      <updated>1782084172775</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۸" summary="style:show 'باز' according to status">
+      <option name="closed" value="true" />
+      <created>1782084280980</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۸" />
+      <updated>1782084280980</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۹" summary="feat:create app header layout">
+      <option name="closed" value="true" />
+      <created>1782171356969</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۹" />
+      <updated>1782171356970</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,11 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:modal ui and logic" />
-    <MESSAGE value="feat:owner project remove api &amp; logic" />
-    <MESSAGE value="fix:error handling" />
-    <MESSAGE value="fix:id bug in delete project" />
-    <MESSAGE value="feat:response success and error messages" />
     <MESSAGE value="style:scroll project table" />
     <MESSAGE value="feat:outside click hook on modals" />
     <MESSAGE value="fix:simple configs" />
@@ -553,6 +551,11 @@
     <MESSAGE value="fix:Opening multiple medals" />
     <MESSAGE value="fix:Back to Racket 18 to install incompatible dependencies" />
     <MESSAGE value="fix:Owner Table Status Toggle Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:Owner Table Status Toggle Button" />
+    <MESSAGE value="fix:forget &quot;/&quot;" />
+    <MESSAGE value="style:Replacing the wrapper div" />
+    <MESSAGE value="feat:show single project proposals" />
+    <MESSAGE value="style:show 'باز' according to status" />
+    <MESSAGE value="feat:create app header layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create app header layout" />
   </component>
 </project>
