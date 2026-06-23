@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create app header layout">
-      <change afterPath="$PROJECT_DIR$/client/src/context/DarkMode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/LogOut.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/useLogOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/project/singleProposal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/project/useChangeProposalStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/proposalsService.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create dark mode">
+      <change afterPath="$PROJECT_DIR$/client/src/context/DarkMode.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useOutSideClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useOutSideClick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/Select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/Select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/DarkMode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/DarkModeToggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/DarkModeToggle.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,28 +162,9 @@
       <workItem from="1782060748216" duration="5762000" />
       <workItem from="1782076556920" duration="8369000" />
       <workItem from="1782138296257" duration="195000" />
-      <workItem from="1782148701509" duration="11574000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۱" summary="feat:create CompleteProfile path">
-      <option name="closed" value="true" />
-      <created>1781113974244</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۱" />
-      <updated>1781113974244</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۲" summary="feat:add Home &amp; NotFound path">
-      <option name="closed" value="true" />
-      <created>1781133042594</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۲" />
-      <updated>1781133042594</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۳" summary="feat:add Home &amp; NotFound components">
-      <option name="closed" value="true" />
-      <created>1781133096391</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۳" />
-      <updated>1781133096391</updated>
+      <workItem from="1782148701509" duration="11802000" />
+      <workItem from="1782227784103" duration="7000" />
+      <workItem from="1782237435053" duration="3303000" />
     </task>
     <task id="LOCAL‎−۰۰۰۲۴" summary="feat:add Home &amp; NotFound components">
       <option name="closed" value="true" />
@@ -513,7 +488,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۶۹" />
       <updated>1782171356970</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL‎−۰۰۰۷۰" summary="feat:app header features">
+      <option name="closed" value="true" />
+      <created>1782171394633</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۰" />
+      <updated>1782171394634</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۷۱" summary="feat:proposal table &amp; status">
+      <option name="closed" value="true" />
+      <created>1782171483970</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۱" />
+      <updated>1782171483970</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۷۲" summary="feat:create dark mode">
+      <option name="closed" value="true" />
+      <created>1782171517791</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۲" />
+      <updated>1782171517791</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,9 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="style:scroll project table" />
-    <MESSAGE value="feat:outside click hook on modals" />
-    <MESSAGE value="fix:simple configs" />
     <MESSAGE value="feat:add create project modal" />
     <MESSAGE value="style:modal minimum width" />
     <MESSAGE value="feat:react-hook-form add to the project" />
@@ -556,6 +549,9 @@
     <MESSAGE value="feat:show single project proposals" />
     <MESSAGE value="style:show 'باز' according to status" />
     <MESSAGE value="feat:create app header layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:create app header layout" />
+    <MESSAGE value="feat:app header features" />
+    <MESSAGE value="feat:proposal table &amp; status" />
+    <MESSAGE value="feat:create dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create dark mode" />
   </component>
 </project>
