@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create dark mode">
-      <change afterPath="$PROJECT_DIR$/client/src/context/DarkMode.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:owner dashboard ui">
+      <change afterPath="$PROJECT_DIR$/client/src/features/owner/OwnerLayout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/DarkMode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/DarkModeToggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/DarkModeToggle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/AppLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/SideBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -164,28 +163,8 @@
       <workItem from="1782138296257" duration="195000" />
       <workItem from="1782148701509" duration="11802000" />
       <workItem from="1782227784103" duration="7000" />
-      <workItem from="1782237435053" duration="3303000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۴" summary="feat:add Home &amp; NotFound components">
-      <option name="closed" value="true" />
-      <created>1781133180443</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۴" />
-      <updated>1781133180443</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۵" summary="feat: completeProfile conditions &amp; api">
-      <option name="closed" value="true" />
-      <created>1781133290238</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۵" />
-      <updated>1781133290238</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۶" summary="feat:accessToken &amp; refreshToken authentication">
-      <option name="closed" value="true" />
-      <created>1781196589447</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۶" />
-      <updated>1781196589447</updated>
+      <workItem from="1782237435053" duration="3431000" />
+      <workItem from="1782251439888" duration="7668000" />
     </task>
     <task id="LOCAL‎−۰۰۰۲۷" summary="feat:create dashboard pages">
       <option name="closed" value="true" />
@@ -509,7 +488,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۷۲" />
       <updated>1782171517791</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL‎−۰۰۰۷۳" summary="feat:complete dark mode logic">
+      <option name="closed" value="true" />
+      <created>1782241062111</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۳" />
+      <updated>1782241062111</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۷۴" summary="feat:complete dark mode details">
+      <option name="closed" value="true" />
+      <created>1782259965879</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۴" />
+      <updated>1782259965881</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۷۵" summary="feat:owner dashboard ui">
+      <option name="closed" value="true" />
+      <created>1782260015998</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۵" />
+      <updated>1782260015998</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,9 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:add create project modal" />
-    <MESSAGE value="style:modal minimum width" />
-    <MESSAGE value="feat:react-hook-form add to the project" />
     <MESSAGE value="feat:add react-hook-form configs to the forms" />
     <MESSAGE value="style:Input styles rewritten" />
     <MESSAGE value="feat:create select option component" />
@@ -552,6 +549,9 @@
     <MESSAGE value="feat:app header features" />
     <MESSAGE value="feat:proposal table &amp; status" />
     <MESSAGE value="feat:create dark mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:create dark mode" />
+    <MESSAGE value="feat:complete dark mode logic" />
+    <MESSAGE value="feat:complete dark mode details" />
+    <MESSAGE value="feat:owner dashboard ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:owner dashboard ui" />
   </component>
 </project>
