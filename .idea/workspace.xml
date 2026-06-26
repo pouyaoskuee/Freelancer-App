@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:freelancer panel structure">
-      <change afterPath="$PROJECT_DIR$/client/src/features/proposlals/useProposals.js" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:freelancer dashboard of panel ui &amp; api is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/DashboardContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/DashboardStats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/StatBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/StatBox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/owner/DashboardStats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/proposalsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/proposalsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/Proposals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Proposals.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +87,8 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/features/proposlals" />
       <recent name="$PROJECT_DIR$/client/src/pages" />
+      <recent name="$PROJECT_DIR$/client/src/features/proposlals" />
       <recent name="$PROJECT_DIR$/client/src/features/freelancer" />
       <recent name="$PROJECT_DIR$/client/src/features/owner" />
       <recent name="$PROJECT_DIR$/client/src/features/authentication" />
@@ -172,14 +168,8 @@
       <workItem from="1782251439888" duration="7738000" />
       <workItem from="1782317582020" duration="7273000" />
       <workItem from="1782404428683" duration="12000" />
-      <workItem from="1782409491551" duration="2395000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۰" summary="style:remove container class">
-      <option name="closed" value="true" />
-      <created>1781372722160</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۰" />
-      <updated>1781372722160</updated>
+      <workItem from="1782409491551" duration="2533000" />
+      <workItem from="1782426951920" duration="1445000" />
     </task>
     <task id="LOCAL‎−۰۰۰۳۱" summary="style: grid layout and container colors">
       <option name="closed" value="true" />
@@ -517,7 +507,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۷۸" />
       <updated>1782326420892</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL‎−۰۰۰۷۹" summary="feat:freelancer dashboard of panel ui &amp; api is done">
+      <option name="closed" value="true" />
+      <created>1782412190055</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۹" />
+      <updated>1782412190055</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="style:change modal min width" />
     <MESSAGE value="feat: add datePicker &amp; tag input to the form" />
     <MESSAGE value="fix:need vite 8 version to render datePicker" />
     <MESSAGE value="style:select styles" />
@@ -560,6 +556,7 @@
     <MESSAGE value="feat:Separate sidebar of owner and freelancer" />
     <MESSAGE value="feat:owner dashboard completed" />
     <MESSAGE value="feat:freelancer panel structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:freelancer panel structure" />
+    <MESSAGE value="feat:freelancer dashboard of panel ui &amp; api is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:freelancer dashboard of panel ui &amp; api is done" />
   </component>
 </project>
