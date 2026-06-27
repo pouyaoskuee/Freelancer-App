@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:freelancer dashboard of panel ui &amp; api is done">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:freelancer proposal table">
+      <change afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/proposlals/CreateProposal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/useAllProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/ui/ButtonDanger.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/Proposals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Proposals.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/SubmittedProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/SubmittedProjects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/project/ProjectHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProjectHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectsTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Proposals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Proposals.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/ButtonPrimary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/ButtonPrimary.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -87,8 +98,8 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/pages" />
       <recent name="$PROJECT_DIR$/client/src/features/proposlals" />
+      <recent name="$PROJECT_DIR$/client/src/pages" />
       <recent name="$PROJECT_DIR$/client/src/features/freelancer" />
       <recent name="$PROJECT_DIR$/client/src/features/owner" />
       <recent name="$PROJECT_DIR$/client/src/features/authentication" />
@@ -169,14 +180,9 @@
       <workItem from="1782317582020" duration="7273000" />
       <workItem from="1782404428683" duration="12000" />
       <workItem from="1782409491551" duration="2533000" />
-      <workItem from="1782426951920" duration="1445000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۱" summary="style: grid layout and container colors">
-      <option name="closed" value="true" />
-      <created>1781372827170</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۱" />
-      <updated>1781372827170</updated>
+      <workItem from="1782426951920" duration="1470000" />
+      <workItem from="1782497829797" duration="18000" />
+      <workItem from="1782572814592" duration="9232000" />
     </task>
     <task id="LOCAL‎−۰۰۰۳۲" summary="style: add white color to root">
       <option name="closed" value="true" />
@@ -514,7 +520,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۷۹" />
       <updated>1782412190055</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL‎−۰۰۰۸۰" summary="feat:freelancer proposal table">
+      <option name="closed" value="true" />
+      <created>1782432090796</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۰" />
+      <updated>1782432090799</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add datePicker &amp; tag input to the form" />
     <MESSAGE value="fix:need vite 8 version to render datePicker" />
     <MESSAGE value="style:select styles" />
     <MESSAGE value="feat:select categories" />
@@ -557,6 +569,7 @@
     <MESSAGE value="feat:owner dashboard completed" />
     <MESSAGE value="feat:freelancer panel structure" />
     <MESSAGE value="feat:freelancer dashboard of panel ui &amp; api is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:freelancer dashboard of panel ui &amp; api is done" />
+    <MESSAGE value="feat:freelancer proposal table" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:freelancer proposal table" />
   </component>
 </project>
