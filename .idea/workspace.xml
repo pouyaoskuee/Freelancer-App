@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:freelancer proposal table">
-      <change afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/proposlals/CreateProposal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hooks/useAllProjects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/ButtonDanger.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:Completing the proposal creation">
+      <change afterPath="$PROJECT_DIR$/client/src/ui/FilterDropDown.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/SubmittedProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/SubmittedProjects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/project/ProjectHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProjectHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/project/ProposalsTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/projects/ProjectTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/projects/ProjectsTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Proposals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Proposals.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/ButtonPrimary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/ButtonPrimary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/useCategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useCategories.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,70 +172,8 @@
       <workItem from="1782409491551" duration="2533000" />
       <workItem from="1782426951920" duration="1470000" />
       <workItem from="1782497829797" duration="18000" />
-      <workItem from="1782572814592" duration="9232000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۲" summary="style: add white color to root">
-      <option name="closed" value="true" />
-      <created>1781372847605</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۲" />
-      <updated>1781372847605</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۳" summary="feat:sidebar of panel">
-      <option name="closed" value="true" />
-      <created>1781372931693</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۳" />
-      <updated>1781372931693</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۴" summary="feat:get owner projects and show">
-      <option name="closed" value="true" />
-      <created>1781372976043</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۴" />
-      <updated>1781372976043</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۵" summary="style:wright styles with tailwind">
-      <option name="closed" value="true" />
-      <created>1781478045947</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۵" />
-      <updated>1781478045947</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۶" summary="style:wright styles with tailwind">
-      <option name="closed" value="true" />
-      <created>1781478744617</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۶" />
-      <updated>1781478744617</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۷" summary="feat:modal ui and logic">
-      <option name="closed" value="true" />
-      <created>1781546458249</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۷" />
-      <updated>1781546458249</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۸" summary="feat:owner project remove api &amp; logic">
-      <option name="closed" value="true" />
-      <created>1781634134484</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۸" />
-      <updated>1781634134484</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۹" summary="fix:error handling">
-      <option name="closed" value="true" />
-      <created>1781657505602</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۹" />
-      <updated>1781657505602</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۰" summary="fix:error handling">
-      <option name="closed" value="true" />
-      <created>1781657533515</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۰" />
-      <updated>1781657533515</updated>
+      <workItem from="1782572814592" duration="9826000" />
+      <workItem from="1782595486896" duration="5220000" />
     </task>
     <task id="LOCAL‎−۰۰۰۴۱" summary="fix:id bug in delete project">
       <option name="closed" value="true" />
@@ -527,7 +455,70 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۸۰" />
       <updated>1782432090799</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL‎−۰۰۰۸۱" summary="refactor:create new button component with same style">
+      <option name="closed" value="true" />
+      <created>1782584071380</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۱" />
+      <updated>1782584071380</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۲" summary="refactor:change component name">
+      <option name="closed" value="true" />
+      <created>1782584172627</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۲" />
+      <updated>1782584172627</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۳" summary="refactor:change component name">
+      <option name="closed" value="true" />
+      <created>1782584272496</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۳" />
+      <updated>1782584272496</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۴" summary="feat:get all projects">
+      <option name="closed" value="true" />
+      <created>1782584349277</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۴" />
+      <updated>1782584349277</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۵" summary="feat:show freelancer proposals in panel">
+      <option name="closed" value="true" />
+      <created>1782584404990</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۵" />
+      <updated>1782584404990</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۶" summary="feat:create a proposal by freelancer">
+      <option name="closed" value="true" />
+      <created>1782584431723</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۶" />
+      <updated>1782584431723</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۷" summary="fix:Sending data without project ID to the endpoint.">
+      <option name="closed" value="true" />
+      <created>1782601519999</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۷" />
+      <updated>1782601519999</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۸" summary="fix:Typing problem">
+      <option name="closed" value="true" />
+      <created>1782601560281</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۸" />
+      <updated>1782601560281</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۹" summary="feat:Completing the proposal creation">
+      <option name="closed" value="true" />
+      <created>1782601635664</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۹" />
+      <updated>1782601635664</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,14 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix:need vite 8 version to render datePicker" />
-    <MESSAGE value="style:select styles" />
-    <MESSAGE value="feat:select categories" />
-    <MESSAGE value="style:datePicker styles" />
-    <MESSAGE value="feat:create project by owner" />
-    <MESSAGE value="feat:edite project feature" />
-    <MESSAGE value="fix:Opening multiple medals" />
-    <MESSAGE value="fix:Back to Racket 18 to install incompatible dependencies" />
     <MESSAGE value="fix:Owner Table Status Toggle Button" />
     <MESSAGE value="fix:forget &quot;/&quot;" />
     <MESSAGE value="style:Replacing the wrapper div" />
@@ -570,6 +553,14 @@
     <MESSAGE value="feat:freelancer panel structure" />
     <MESSAGE value="feat:freelancer dashboard of panel ui &amp; api is done" />
     <MESSAGE value="feat:freelancer proposal table" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:freelancer proposal table" />
+    <MESSAGE value="refactor:create new button component with same style" />
+    <MESSAGE value="refactor:change component name" />
+    <MESSAGE value="feat:get all projects" />
+    <MESSAGE value="feat:show freelancer proposals in panel" />
+    <MESSAGE value="feat:create a proposal by freelancer" />
+    <MESSAGE value="fix:Sending data without project ID to the endpoint." />
+    <MESSAGE value="fix:Typing problem" />
+    <MESSAGE value="feat:Completing the proposal creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:Completing the proposal creation" />
   </component>
 </project>
