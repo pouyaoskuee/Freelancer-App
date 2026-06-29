@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:project filters api">
-      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/useAuthorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/ui/protectedRoute.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create admin panel">
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/AdminLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/DashboardContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/DashboardStats.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/useAllUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AdminDashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/UserAvatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/UserAvatar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/DashboardContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/DashboardHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/DashboardStats.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/FreelancerLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/FreelancerLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/StatBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/StatBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/owner/DashboardContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/owner/DashboardStats.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/owner/StatBox.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,26 +67,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;JavaScript Debug.localhost:5174.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pouya/Desktop/Freelancer-App/client/src/features/freelancer&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.localhost:5174.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/pouya/Desktop/Freelancer-App/client/src/features/admin",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -82,16 +98,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/features/admin" />
       <recent name="$PROJECT_DIR$/client/src/features/freelancer" />
       <recent name="$PROJECT_DIR$/client/public" />
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/features/proposlals" />
+      <recent name="$PROJECT_DIR$/client/src/ui" />
       <recent name="$PROJECT_DIR$/client/src/pages" />
+      <recent name="$PROJECT_DIR$/client/src/features/proposlals" />
       <recent name="$PROJECT_DIR$/client/src/features/freelancer" />
       <recent name="$PROJECT_DIR$/client/src/features/owner" />
-      <recent name="$PROJECT_DIR$/client/src/features/authentication" />
     </key>
   </component>
   <component name="RunManager">
@@ -174,21 +191,8 @@
       <workItem from="1782572814592" duration="9826000" />
       <workItem from="1782595486896" duration="5947000" />
       <workItem from="1782681639302" duration="7082000" />
-      <workItem from="1782753933097" duration="3775000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۵" summary="feat:outside click hook on modals">
-      <option name="closed" value="true" />
-      <created>1781719910374</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۵" />
-      <updated>1781719910374</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۶" summary="fix:simple configs">
-      <option name="closed" value="true" />
-      <created>1781719955762</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۶" />
-      <updated>1781719955762</updated>
+      <workItem from="1782753933097" duration="3909000" />
+      <workItem from="1782768264443" duration="5111000" />
     </task>
     <task id="LOCAL‎−۰۰۰۴۷" summary="feat:add create project modal">
       <option name="closed" value="true" />
@@ -519,7 +523,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۹۳" />
       <updated>1782691721032</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL‎−۰۰۰۹۴" summary="feat:user Authorize &amp; Authenticate">
+      <option name="closed" value="true" />
+      <created>1782757900601</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۴" />
+      <updated>1782757900601</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۹۵" summary="feat:create admin panel">
+      <option name="closed" value="true" />
+      <created>1782775778063</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۵" />
+      <updated>1782775778063</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,8 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:show single project proposals" />
-    <MESSAGE value="style:show 'باز' according to status" />
     <MESSAGE value="feat:create app header layout" />
     <MESSAGE value="feat:app header features" />
     <MESSAGE value="feat:proposal table &amp; status" />
@@ -562,6 +578,8 @@
     <MESSAGE value="feat:filtered all projects by freelancer" />
     <MESSAGE value="feat:project filters ui" />
     <MESSAGE value="feat:project filters api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:project filters api" />
+    <MESSAGE value="feat:user Authorize &amp; Authenticate" />
+    <MESSAGE value="feat:create admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create admin panel" />
   </component>
 </project>
