@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:filtered all projects by freelancer">
-      <change afterPath="$PROJECT_DIR$/client/src/ui/Filter.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:project filters api">
+      <change afterPath="$PROJECT_DIR$/client/src/features/authentication/useAuthorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/ui/protectedRoute.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useAllProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useAllProjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/FilterDropDown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/FilterDropDown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -178,21 +173,8 @@
       <workItem from="1782497829797" duration="18000" />
       <workItem from="1782572814592" duration="9826000" />
       <workItem from="1782595486896" duration="5947000" />
-      <workItem from="1782681639302" duration="6639000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۳" summary="feat:response success and error messages">
-      <option name="closed" value="true" />
-      <created>1781657853731</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۳" />
-      <updated>1781657853731</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۴" summary="style:scroll project table">
-      <option name="closed" value="true" />
-      <created>1781719844252</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۴" />
-      <updated>1781719844252</updated>
+      <workItem from="1782681639302" duration="7082000" />
+      <workItem from="1782753933097" duration="3775000" />
     </task>
     <task id="LOCAL‎−۰۰۰۴۵" summary="feat:outside click hook on modals">
       <option name="closed" value="true" />
@@ -523,7 +505,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۹۱" />
       <updated>1782603365635</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL‎−۰۰۰۹۲" summary="feat:project filters ui">
+      <option name="closed" value="true" />
+      <created>1782691711233</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۲" />
+      <updated>1782691711233</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۹۳" summary="feat:project filters api">
+      <option name="closed" value="true" />
+      <created>1782691721032</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۳" />
+      <updated>1782691721032</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix:forget &quot;/&quot;" />
-    <MESSAGE value="style:Replacing the wrapper div" />
     <MESSAGE value="feat:show single project proposals" />
     <MESSAGE value="style:show 'باز' according to status" />
     <MESSAGE value="feat:create app header layout" />
@@ -566,6 +560,8 @@
     <MESSAGE value="fix:Typing problem" />
     <MESSAGE value="feat:Completing the proposal creation" />
     <MESSAGE value="feat:filtered all projects by freelancer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:filtered all projects by freelancer" />
+    <MESSAGE value="feat:project filters ui" />
+    <MESSAGE value="feat:project filters api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:project filters api" />
   </component>
 </project>
