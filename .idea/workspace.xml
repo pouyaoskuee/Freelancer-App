@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:some minor bugs">
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/ChangeUserStatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/UserTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/useChangeUserStatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:user authorize by role and status">
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/useAuthorize.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/useAuthorize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ui/protectedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/protectedRoute.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,49 +174,7 @@
       <workItem from="1782681639302" duration="7082000" />
       <workItem from="1782753933097" duration="3909000" />
       <workItem from="1782768264443" duration="5917000" />
-      <workItem from="1782832407504" duration="7896000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۲" summary="style:Input styles rewritten">
-      <option name="closed" value="true" />
-      <created>1781805837166</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۲" />
-      <updated>1781805837167</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۳" summary="feat:create select option component">
-      <option name="closed" value="true" />
-      <created>1781805863445</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۳" />
-      <updated>1781805863445</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۴" summary="style:change modal min width">
-      <option name="closed" value="true" />
-      <created>1781805890946</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۴" />
-      <updated>1781805890946</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۵" summary="feat: add datePicker &amp; tag input to the form">
-      <option name="closed" value="true" />
-      <created>1781831516082</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۵" />
-      <updated>1781831516082</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۶" summary="fix:need vite 8 version to render datePicker">
-      <option name="closed" value="true" />
-      <created>1781831683372</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۶" />
-      <updated>1781831683372</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۷" summary="style:select styles">
-      <option name="closed" value="true" />
-      <created>1781831703281</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۷" />
-      <updated>1781831703281</updated>
+      <workItem from="1782832407504" duration="8289000" />
     </task>
     <task id="LOCAL‎−۰۰۰۵۸" summary="feat:select categories">
       <option name="closed" value="true" />
@@ -531,7 +477,49 @@
       <option name="presentableId" value="LOCAL‎−۰۰۱۰۰" />
       <updated>1782776149134</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL‎−۰۰۱۰۱" summary="fix:user display in admin panel">
+      <option name="closed" value="true" />
+      <created>1782844296113</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۱" />
+      <updated>1782844296114</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۱۰۲" summary="fix:change user status by admin">
+      <option name="closed" value="true" />
+      <created>1782844324000</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۲" />
+      <updated>1782844324000</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۱۰۳" summary="feat:admin panel project &amp; proposals">
+      <option name="closed" value="true" />
+      <created>1782844425313</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۳" />
+      <updated>1782844425313</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۱۰۴" summary="feat:user table in admin panel">
+      <option name="closed" value="true" />
+      <created>1782844460750</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۴" />
+      <updated>1782844460751</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۱۰۵" summary="feat:change user status by admin">
+      <option name="closed" value="true" />
+      <created>1782844503430</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۵" />
+      <updated>1782844503430</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۱۰۶" summary="feat:user authorize by role and status">
+      <option name="closed" value="true" />
+      <created>1782844544760</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۶" />
+      <updated>1782844544760</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,12 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:create dark mode" />
-    <MESSAGE value="feat:complete dark mode logic" />
-    <MESSAGE value="feat:complete dark mode details" />
-    <MESSAGE value="feat:owner dashboard ui" />
-    <MESSAGE value="feat:Separate sidebar of owner and freelancer" />
-    <MESSAGE value="feat:owner dashboard completed" />
     <MESSAGE value="feat:freelancer panel structure" />
     <MESSAGE value="feat:freelancer dashboard of panel ui &amp; api is done" />
     <MESSAGE value="feat:freelancer proposal table" />
@@ -574,6 +556,12 @@
     <MESSAGE value="feat:create admin panel" />
     <MESSAGE value="feat:get all users" />
     <MESSAGE value="fix:some minor bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:some minor bugs" />
+    <MESSAGE value="fix:user display in admin panel" />
+    <MESSAGE value="fix:change user status by admin" />
+    <MESSAGE value="feat:admin panel project &amp; proposals" />
+    <MESSAGE value="feat:user table in admin panel" />
+    <MESSAGE value="feat:change user status by admin" />
+    <MESSAGE value="feat:user authorize by role and status" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:user authorize by role and status" />
   </component>
 </project>
