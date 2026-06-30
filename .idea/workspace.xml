@@ -4,27 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:create admin panel">
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/AdminLayout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/DashboardContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/DashboardStats.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/features/admin/useAllUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/AdminDashboard.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:some minor bugs">
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/ChangeUserStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/UserTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/admin/useChangeUserStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/AuthContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/UserAvatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/UserAvatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/DashboardContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/DashboardHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/DashboardStats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/FreelancerLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/FreelancerLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/StatBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/StatBox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/owner/DashboardContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardHeader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/owner/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/owner/DashboardStats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/owner/StatBox.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CompleteProfileForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/useAuthorize.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/useAuthorize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/freelancer/project/projectsTable.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/authService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/projectService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/projectService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ui/protectedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ui/protectedRoute.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -67,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JavaScript Debug.localhost:5174.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/pouya/Desktop/Freelancer-App/client/src/features/admin",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.localhost:5174.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pouya/Desktop/Freelancer-App/client/src/features/admin&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -192,42 +185,8 @@
       <workItem from="1782595486896" duration="5947000" />
       <workItem from="1782681639302" duration="7082000" />
       <workItem from="1782753933097" duration="3909000" />
-      <workItem from="1782768264443" duration="5111000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۷" summary="feat:add create project modal">
-      <option name="closed" value="true" />
-      <created>1781736956737</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۷" />
-      <updated>1781736956737</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۸" summary="style:modal minimum width">
-      <option name="closed" value="true" />
-      <created>1781737100535</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۸" />
-      <updated>1781737100535</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۴۹" summary="feat:react-hook-form add to the project">
-      <option name="closed" value="true" />
-      <created>1781737144752</created>
-      <option name="number" value="LOCAL‎−۰۰۰۴۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۴۹" />
-      <updated>1781737144752</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۰" summary="feat:add react-hook-form configs to the forms">
-      <option name="closed" value="true" />
-      <created>1781805663499</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۰" />
-      <updated>1781805663500</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۱" summary="feat:add react-hook-form configs to the forms">
-      <option name="closed" value="true" />
-      <created>1781805737006</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۱" />
-      <updated>1781805737006</updated>
+      <workItem from="1782768264443" duration="5917000" />
+      <workItem from="1782832407504" duration="7896000" />
     </task>
     <task id="LOCAL‎−۰۰۰۵۲" summary="style:Input styles rewritten">
       <option name="closed" value="true" />
@@ -537,7 +496,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۹۵" />
       <updated>1782775778063</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL‎−۰۰۰۹۶" summary="refactor:Convert multiple components into one">
+      <option name="closed" value="true" />
+      <created>1782775973845</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۶" />
+      <updated>1782775973845</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۹۷" summary="refactor:Convert multiple components into one">
+      <option name="closed" value="true" />
+      <created>1782776016217</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۷" />
+      <updated>1782776016217</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۹۸" summary="feat:create admin panel">
+      <option name="closed" value="true" />
+      <created>1782776061068</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۸" />
+      <updated>1782776061068</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۹۹" summary="feat:get all users">
+      <option name="closed" value="true" />
+      <created>1782776087311</created>
+      <option name="number" value="LOCAL‎−۰۰۰۹۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۹۹" />
+      <updated>1782776087311</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۱۰۰" summary="fix:some minor bugs">
+      <option name="closed" value="true" />
+      <created>1782776149134</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۰" />
+      <updated>1782776149134</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,9 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:create app header layout" />
-    <MESSAGE value="feat:app header features" />
-    <MESSAGE value="feat:proposal table &amp; status" />
     <MESSAGE value="feat:create dark mode" />
     <MESSAGE value="feat:complete dark mode logic" />
     <MESSAGE value="feat:complete dark mode details" />
@@ -579,7 +570,10 @@
     <MESSAGE value="feat:project filters ui" />
     <MESSAGE value="feat:project filters api" />
     <MESSAGE value="feat:user Authorize &amp; Authenticate" />
+    <MESSAGE value="refactor:Convert multiple components into one" />
     <MESSAGE value="feat:create admin panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:create admin panel" />
+    <MESSAGE value="feat:get all users" />
+    <MESSAGE value="fix:some minor bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:some minor bugs" />
   </component>
 </project>
