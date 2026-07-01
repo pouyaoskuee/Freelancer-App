@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:path address">
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="test:deploy test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +176,7 @@
       <workItem from="1782768264443" duration="5917000" />
       <workItem from="1782832407504" duration="8336000" />
       <workItem from="1782864096327" duration="14000" />
-      <workItem from="1782922285426" duration="9777000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۹" summary="style:datePicker styles">
-      <option name="closed" value="true" />
-      <created>1781980566513</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۹" />
-      <updated>1781980566513</updated>
+      <workItem from="1782922285426" duration="10570000" />
     </task>
     <task id="LOCAL‎−۰۰۰۶۰" summary="feat:create project by owner">
       <option name="closed" value="true" />
@@ -522,7 +514,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۱۰۷" />
       <updated>1782844597464</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL‎−۰۰۱۰۸" summary="test:deploy test">
+      <option name="closed" value="true" />
+      <created>1782948690922</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۸" />
+      <updated>1782948690923</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:freelancer dashboard of panel ui &amp; api is done" />
     <MESSAGE value="feat:freelancer proposal table" />
     <MESSAGE value="refactor:create new button component with same style" />
     <MESSAGE value="refactor:change component name" />
@@ -565,6 +563,7 @@
     <MESSAGE value="feat:change user status by admin" />
     <MESSAGE value="feat:user authorize by role and status" />
     <MESSAGE value="fix:path address" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:path address" />
+    <MESSAGE value="test:deploy test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test:deploy test" />
   </component>
 </project>
