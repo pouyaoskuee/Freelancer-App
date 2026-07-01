@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="feat:user authorize by role and status">
-      <change beforePath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/authentication/CheckOTPForm.jsx" afterDir="false" />
+    <list default="true" id="06666836-1ea2-44b8-994a-f503ccbc091b" name="Changes" comment="fix:path address">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,14 +175,9 @@
       <workItem from="1782681639302" duration="7082000" />
       <workItem from="1782753933097" duration="3909000" />
       <workItem from="1782768264443" duration="5917000" />
-      <workItem from="1782832407504" duration="8289000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۵۸" summary="feat:select categories">
-      <option name="closed" value="true" />
-      <created>1781980543117</created>
-      <option name="number" value="LOCAL‎−۰۰۰۵۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۵۸" />
-      <updated>1781980543117</updated>
+      <workItem from="1782832407504" duration="8336000" />
+      <workItem from="1782864096327" duration="14000" />
+      <workItem from="1782922285426" duration="9777000" />
     </task>
     <task id="LOCAL‎−۰۰۰۵۹" summary="style:datePicker styles">
       <option name="closed" value="true" />
@@ -519,7 +515,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۱۰۶" />
       <updated>1782844544760</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL‎−۰۰۱۰۷" summary="fix:path address">
+      <option name="closed" value="true" />
+      <created>1782844597464</created>
+      <option name="number" value="LOCAL‎−۰۰۱۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۱۰۷" />
+      <updated>1782844597464</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat:freelancer panel structure" />
     <MESSAGE value="feat:freelancer dashboard of panel ui &amp; api is done" />
     <MESSAGE value="feat:freelancer proposal table" />
     <MESSAGE value="refactor:create new button component with same style" />
@@ -562,6 +564,7 @@
     <MESSAGE value="feat:user table in admin panel" />
     <MESSAGE value="feat:change user status by admin" />
     <MESSAGE value="feat:user authorize by role and status" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:user authorize by role and status" />
+    <MESSAGE value="fix:path address" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:path address" />
   </component>
 </project>
